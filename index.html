@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator | CodeWithPanda</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="pw-gen">
+            <div class="pw-header">
+                <div class="pw">
+                    <span id="pw">Password Here</span>
+                    <button id="copy">Copy</button>
+                </div>
+            </div>
+            <div class="pw-body">
+            <div class="control">
+                <label for="length">Password Length</label>
+                <input type="number" id="len" min="4" max="30" value="10">
+            </div>
+            <div class="control">
+                <label for="length">Uppercase Letters</label>
+                <input type="checkbox" id="upper">
+            </div>
+            <div class="control">
+                <label for="length">Lowercase Letters</label>
+                <input type="checkbox" id="lower">
+            </div>
+            <div class="control">
+                <label for="length">Numbers</label>
+                <input type="checkbox" id="number">
+            </div>
+            <div class="control">
+                <label for="length">Symbols</label>
+                <input type="checkbox" id="symbol">
+            </div>
+            <button class="generate" id="generate">Generate Password</button>
+        </div>
+    </div>
+    <footer>
+        <span style="font-weight: 100;">Made by <a href="https://codewithpanda.com">CodeWithPanda</a></span>
+        <a href="https://github.com/xPandaDev">Github</a>
+        <a href="https://github.com/xPandaDev/Javascript-password-generator">Source Code</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
+<!--
+Made by: PandaDev
+Website: https://codewithpanda.com
+Please Mention PandaDev if you use this Project
+-->
