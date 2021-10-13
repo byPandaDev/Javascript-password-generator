@@ -1,4 +1,4 @@
-# Javascript-password-generator
+# Javascript Password-Generator
  
 > Simple Password-Generator with Javascript
 > 
